@@ -13,7 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
-    vendor/xiaomi/msm8994-common/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/mmbn-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mmbn-daemon \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
@@ -63,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8994-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/fidodaemon:$(TARGET_COPY_OUT_VENDOR)/bin/fidodaemon \
+    vendor/xiaomi/msm8994-common/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/xiaomi/msm8994-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -275,6 +275,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-als.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-als.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
+    vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-dspp-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-dspp-utils.so \
+    vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/xiaomi/msm8994-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
